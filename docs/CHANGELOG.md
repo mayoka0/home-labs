@@ -1,6 +1,6 @@
 # Changelog
 
-## 2026-09-29 — Public baseline
+## 2026-09-29: Public baseline
 
 - Reset the repository to a sanitized, documentation-first Home Labs baseline.
 - Removed retired app stacks, personal host configuration, and custom host/container maintenance scripts.

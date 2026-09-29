@@ -2,7 +2,7 @@
 
 This is a high-level snapshot, not a deployment manifest. It intentionally excludes private identifiers and values.
 
-## Snapshot — 2026-09-29
+## Snapshot: 2026-09-29
 
 - The host runs Proxmox VE 9.2.2.
 - Tailscale is used as the private administration network.
@@ -14,7 +14,7 @@ The exact domain names, IP addresses, Tailscale identity, Access allowlist, tunn
 
 ## Scope and assumptions
 
-The tunnel connector establishes an outbound connection. A changing residential WAN address does not require a static IP or a manual DNS update for this design. A genuine outage—loss of power, ISP service, the Proxmox host, the connector, or Cloudflare—still makes the home service unavailable until recovery. This is not a high-availability design.
+The tunnel connector establishes an outbound connection. A changing residential WAN address does not require a static IP or a manual DNS update for this design. If power, ISP service, the Proxmox host, the connector, or Cloudflare goes down, home services remain unavailable until recovery. This is not a high-availability design.
 
 Tailscale is the preferred path for private host administration. Cloudflare Access is an additional identity gate for intentionally published web routes, not a substitute for host security or a reason to expose administrative services broadly.
 

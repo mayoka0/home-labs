@@ -1,6 +1,6 @@
 # Home Labs
 
-A public, safety-conscious notebook for building and operating a small Proxmox home lab. It is intended to help others adapt the ideas to their own networks—not to expose or reproduce the maintainer's private infrastructure.
+A public, safety-conscious notebook for building and operating a small Proxmox home lab. It is intended to help others adapt the ideas to their own networks. It does not expose or reproduce the maintainer's private infrastructure.
 
 ## Current shape
 
