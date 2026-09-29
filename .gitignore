@@ -1,0 +1,27 @@
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.age
+**/secrets/
+**/secret/
+**/credentials*
+**/*token*
+**/*credential*
+
+# Local state and generated files
+.DS_Store
+*.log
+*.tfstate
+*.tfstate.*
+.terraform/
+.ssh/
+config/**/bookmarks.local.yaml
+graphify-out/
